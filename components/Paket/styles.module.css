@@ -1,0 +1,20 @@
+.mainPaket{
+    background-image: url("/paket.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paket h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 184, 38);
+}
+
+.pakettext{
+     margin-top: 50px;
+    color: white;
+    font-size: 2rem;
+    width: 30ch;
+    line-height: 3rem;
+    padding-bottom: 45%;
+}

@@ -1,0 +1,35 @@
+.Process{
+    
+    position: relative;
+}
+
+.processContent h2 {
+    padding-top: 40px;
+    font-size: 50px;
+    color:#512615 ;
+    text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .textone{
+    display: flex;
+    margin-left: 3%;
+    width: 28ch;
+    font-size: 20px;
+ }
+
+ .divone{
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+ }  
+
+ .rowone{
+    z-index: 2;
+    position: absolute;
+    top: 65%;
+    margin-left: 12%;
+ }
+
+
+

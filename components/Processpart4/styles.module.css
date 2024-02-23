@@ -1,0 +1,26 @@
+.main{
+    position: relative;
+}
+
+.Processpart4{
+    position: relative;
+}
+
+.cofebeantwo{
+position: absolute;
+margin-top: 15%;
+margin-left: 10%;
+}
+
+.textthree{
+    position: absolute;
+    margin-left: 14%;
+    top: 12rem;
+    font-size: 20px;
+}
+
+.rowthree{
+    margin-left: 27%;
+    margin-top: 24rem;
+}
+

@@ -1,0 +1,14 @@
+.btn{
+    transition:all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+  }
+
+  .btn:hover{
+    background-color: #ECBC2C;
+    color: black;
+  }
