@@ -13,3 +13,12 @@
   position: absolute;
   
 }
+
+@media (max-width:360px){
+  
+  .rowtwo{
+    display: none;
+  }
+
+
+}

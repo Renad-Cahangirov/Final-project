@@ -31,5 +31,26 @@
     margin-left: 12%;
  }
 
+ @media (max-width:360px) {
+   .Process{
+      max-width: 360px;
+   }
+
+   .elipse{
+      width: 5rem;
+      height:5rem;
+   }
+
+   .textone{
+      font-size: 0.9rem;
+   }
+    
+   .rowone{
+      display: none;
+   }
+   
+
+ }
+
 
 

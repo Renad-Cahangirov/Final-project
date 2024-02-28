@@ -1,3 +1,12 @@
+.main{
+    /* background: url("/cofecupphoto.webp") no-repeat center top / cover;  */
+    background-image:url("/cofecupphoto.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    padding: 2.5rem 0;
+} 
+
 .heading{
     font-size: 24px;
     color: #4F2515;
@@ -21,17 +30,18 @@
     padding-bottom: 5px;
 }
 
-
 .register{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
     margin: 3rem auto;
-    width: 400px;
-    background: url("../../../public/coferegister.webp") no-repeat center top / cover; /*Taleh*/
+    max-width: 400px;
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    
+    padding: 0.5rem 4rem;
 }
 
 .input{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,4 +55,20 @@
 
 .inputtwo{
     padding: 4px;
+}
+
+.button{
+    transition:all 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    margin-left: 40%;
+}
+
+.button:hover{
+    background-color: #E3B425;
+    color: black;
 }

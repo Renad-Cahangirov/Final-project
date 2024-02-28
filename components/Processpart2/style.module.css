@@ -20,3 +20,14 @@
 .rowtwo{
 right: 40%;
 }
+
+@media (max-width:360px) {
+    .texttwo{
+        font-size: 0.9rem;
+    }
+
+    .cofebean{
+        width: 5rem;
+        height:5rem; 
+    }
+}

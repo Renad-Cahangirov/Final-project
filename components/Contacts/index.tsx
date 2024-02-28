@@ -8,7 +8,7 @@ const Contacts = () => {
           <h2>ƏLAQƏ</h2>
         </div>
  
-      <form className={styles.input} method='POST'> 
+      <form className={styles.input} action="https://getform.io/f/zbqGjkep" method='POST'> 
 
 
       <div className={styles.twolabel}>
@@ -21,7 +21,7 @@ const Contacts = () => {
        </label>
       </div>
       <p className={styles.mesaj} >Mesaj</p>
-       <br /> <textarea className={styles.textarea} name="text" id="text" cols="70" rows="8"></textarea> <br />
+       <br /> <textarea className={styles.textarea} name="text" id="text" cols="60" rows="8"></textarea> <br />
          <button  className={styles.button} type='submit'>Göndər</button>
        </form>
       

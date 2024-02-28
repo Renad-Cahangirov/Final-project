@@ -55,3 +55,9 @@
     background-color: #E3B425;
     color: black;
 }
+
+@media (max-width:360px){
+    .imageDiv{
+        
+    }
+}

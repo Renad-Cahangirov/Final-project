@@ -15,3 +15,15 @@
     width: 18ch;
 }
 
+@media (max-width:360px)
+{
+    .cofecup{
+        width: 5rem;
+        height: 5rem ;
+    }
+
+    .textfour{
+        font-size: 0.9rem;
+    }
+}
+

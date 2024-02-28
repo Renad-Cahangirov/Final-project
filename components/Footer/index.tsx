@@ -4,11 +4,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Footers = () => {
   return (
-    <main>
+    <main className={styles.main}>
         <div className="container">
-            <div className={styles.divone}>
-            <Image className={styles.reklam} src='/renadcup.png' alt='cup' width={1306} height={611}/>
-            </div>
+            
             <div className={styles.divtwo}>
             <Image src="/logotwo.png" alt="logo" width={246} height={203} />
             <h3 className={styles.textone}>JavaJolt Roastres</h3>

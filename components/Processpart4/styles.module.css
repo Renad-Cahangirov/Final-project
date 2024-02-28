@@ -24,3 +24,18 @@ margin-left: 10%;
     margin-top: 24rem;
 }
 
+@media (max-width:360px){
+    .textthree{
+        font-size: 0.9rem;
+    }
+
+    .cofebeantwo{
+      width: 5rem;
+      height:5rem;
+    }
+
+    .rowthree{
+        display: none;
+    }
+}
+

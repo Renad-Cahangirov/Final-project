@@ -1,7 +1,10 @@
-.divtwo{
-    margin-left: 5rem;
-    margin-top: -48%
+.main{
+    background-image:url("/renadcup.png") ;
+    padding-bottom: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
 .textone{
@@ -9,17 +12,11 @@
     margin-left: 2.2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #FBBC04;
-    
-}
-
-.reklam{
-    margin-top: -5px;
 }
 
 .divthree{
     display: flex;
     position: absolute;
-    margin-left: 4rem;
     margin-top: 3rem;
     gap: 3rem;
     
@@ -43,7 +40,6 @@
 .location{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
     margin-left: 39rem;
     font-size: 30px;
     margin-top: -3rem;
@@ -58,7 +54,6 @@
 .phone{
     position: absolute;
     font-size: 30px;
-    color:white;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 39rem;
     margin-top: 10rem;
@@ -71,5 +66,4 @@
 .locationtwo{
     color: white;
 }
-
 
