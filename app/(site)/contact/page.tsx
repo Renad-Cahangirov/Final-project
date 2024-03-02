@@ -22,7 +22,7 @@ const Contact = () => {
        </label>
       </div>
       <p className={styles.mesaj} >Mesaj</p>
-       <br /> <textarea className={styles.textarea} name="message" id="text" cols="60" rows="8"></textarea> <br />
+       <br /> <textarea className={styles.textarea} name="message" id="text" cols={60} rows={8}></textarea> <br />
          <button  className={styles.button} type='submit'>Göndər</button>
        </form>
       </div>

@@ -15,7 +15,7 @@ const Mehsullar = () => {
 
           {divtwo.map((products) => {
             return (
-             <div className={styles.work}>
+             <div key={products.id} className={styles.work}>
                 <div className={styles.imageDiv}>
                   <Image className={styles.cardImage} src={products.image} alt='photo' width={269} height={269} />
                 </div>

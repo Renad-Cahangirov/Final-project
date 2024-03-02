@@ -22,7 +22,7 @@ const Comment = () => {
 
             {data.map((comment)=>{
               return(
-                <div className={styles.imageDiv}>
+                <div key={comment.id} className={styles.imageDiv}>
                 <Image src={comment.image} alt='girl photo' width={131} height={131} />
                 <p className={styles.cardTextItems} >{comment.comment}</p>
               </div>

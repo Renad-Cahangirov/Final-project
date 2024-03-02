@@ -53,7 +53,7 @@ const Footers = () => {
           </div>
  
         <div className={styles.phone}>
-         <Link className={styles.phonetwo} href="tel:(319) 555-0115">(319) 555-0115"</Link>
+         <Link className={styles.phonetwo} href="tel:(319) 555-0115">(319) 555-0115</Link>
         </div>
 
           </div>

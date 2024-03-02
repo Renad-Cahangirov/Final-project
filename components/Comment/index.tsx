@@ -18,7 +18,7 @@ const Comment = () => {
           {
             data.slice(0,2).map((comm)=>{
               return(
-                <div data-aos="flip-up" className={styles.imageDiv}>
+                <div key={comm.id} data-aos="flip-up" className={styles.imageDiv}>
             <Image src={comm.image} alt='girl photo' width={131} height={131} />
             <p className={styles.cardTextItems} >{comm.comment}</p>
           </div>
