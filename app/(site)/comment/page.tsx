@@ -1,8 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import styles from './styles.module.css'
 import Image from 'next/image'
 import { data } from '@/data'
+import AOS from "aos";
+import "aos/dist/aos.css"
 const Comment = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <main>
       <div className="container">

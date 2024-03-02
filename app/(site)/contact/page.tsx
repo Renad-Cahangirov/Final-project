@@ -2,8 +2,9 @@ import React from 'react'
 import styles from './style.module.css'
 const Contact = () => {
   return (
-    <main>
+    <main className={styles.main}>
       <div className="container">
+      <div className={styles.register}>
       <div className={styles.Contactsheading}>
           <h2>ƏLAQƏ</h2>
         </div>
@@ -24,6 +25,7 @@ const Contact = () => {
        <br /> <textarea className={styles.textarea} name="message" id="text" cols="60" rows="8"></textarea> <br />
          <button  className={styles.button} type='submit'>Göndər</button>
        </form>
+      </div>
       
 
       </div>

@@ -1,3 +1,14 @@
+.main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image:url("../../../public/peoplecofe.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    
+} 
+
+
 .Contactsheading{
     margin-top: 1rem;
     font-size: 30px;
@@ -6,18 +17,14 @@
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.input{
-    padding: 30px 0;
-}
+
   
-.email{
-   
+.email{  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.all{
-    
+.all{  
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -27,7 +34,6 @@
 border-radius: 7px;
     font-size: 20px;
     resize: none;
-    background: transparent;
     margin-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-evenly;
@@ -39,7 +45,6 @@ border-radius: 7px;
 .twolabel{
     display: flex;
     border-radius: 15px;
-    background: transparent;
     font-family: Arial, Helvetica, sans-serif; 
     justify-content: space-evenly;
     align-items: center;
@@ -62,8 +67,7 @@ border-radius: 7px;
     color: black;
 }
 
-.all input{
-    background: transparent;
+.all input{    
     padding: 5px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +75,6 @@ border-radius: 7px;
 }
 
 .email input {
-    background: transparent;
     padding: 5px;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -84,6 +87,15 @@ border-radius: 7px;
     position: absolute;
     margin-top: 4rem;
    margin-left: 17.5rem;
+}
+
+.register{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 3rem 0rem;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
 
 
