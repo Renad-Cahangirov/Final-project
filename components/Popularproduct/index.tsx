@@ -42,7 +42,7 @@ const Popularproduct = () => {
 
           <div className={styles.cards}>
             <div data-aos="zoom-in-up" className={styles.imageDiv}>
-            <Image className={styles.cardImage} src="/coffeepacketfour.png" alt='cofe packet' width={269} height={269}/>
+            <Image className={styles.cardImage} src="/coffepacketfour.png" alt='cofe packet' width={269} height={269}/>
             </div>
             <p className={styles.imageText}>BANGLADESHI ORGANIC</p>
           </div>  
@@ -50,7 +50,7 @@ const Popularproduct = () => {
           
           <div className={styles.cards}>
             <div data-aos="zoom-in-up" className={styles.imageDiv}>
-            <Image className={styles.cardImage} src="/coffeepacketfive.png" alt='cofe packet' width={269} height={269}/>
+            <Image className={styles.cardImage} src="/coffepacketfive.png" alt='cofe packet' width={269} height={269}/>
             </div>
             <p className={styles.imageText}>
             ARVICA COFFEE PACK        
